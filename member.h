@@ -17,7 +17,7 @@ void printAll(void);
 void printPage(int curPageNum, int lastPageNum);
 
 void addNewMember(void);
-void phoneFormCheck(void);
+void phoneFormCheck(int memberId);
 
 void deleteMember(int memberIdx);
 void editMember(int memberIdx);
